@@ -1,0 +1,28 @@
+.label {
+  padding: 5px 10px;
+  font-weight: 500;
+  border: 3px solid rgb(255, 145, 0);
+  border-radius: 10px;
+}
+
+.input {
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+}
+
+.button {
+  border-radius: 25px;
+  width: 200px;
+  border: none;
+  padding: 5px 0;
+  border: 3px solid rgb(255, 145, 0);
+  color: rgb(255, 145, 0);
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+}

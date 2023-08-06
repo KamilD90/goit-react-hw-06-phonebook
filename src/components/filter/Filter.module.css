@@ -1,0 +1,16 @@
+.section_filter {
+  padding: 20px;
+}
+
+.title {
+  margin: 10px 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.search_box {
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 20px;
+  border: 3px solid rgb(255, 145, 0);
+}
