@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KamilD90/goit-react-hw-06-phonebook.git/static/css/main.d3f78f60.css",
+    "main.js": "/KamilD90/goit-react-hw-06-phonebook.git/static/js/main.65e70c95.js",
+    "index.html": "/KamilD90/goit-react-hw-06-phonebook.git/index.html",
+    "main.d3f78f60.css.map": "/KamilD90/goit-react-hw-06-phonebook.git/static/css/main.d3f78f60.css.map",
+    "main.65e70c95.js.map": "/KamilD90/goit-react-hw-06-phonebook.git/static/js/main.65e70c95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3f78f60.css",
+    "static/js/main.65e70c95.js"
+  ]
+}
