@@ -1,7 +1,11 @@
 import css from './ContactList.module.css';
-import React from "react";
+import React from 'react';
 
 const ContactList = ({ contacts, filter, deleteContact }) => {
+  if (!Array.isArray(contacts)) {
+    return null; // lub wyświetl jakiś komunikat błędu
+  }
+
   const filteredContacts = contacts.filter(contact =>
     contact.name.toLowerCase().includes(filter.toLowerCase())
   );
