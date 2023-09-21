@@ -19,16 +19,23 @@ export default function App() {
 
   const fetchContactsFromLocalStorage = () => {
     const storedContacts = localStorage.getItem('contacts');
+    console.log('Dane z Local Storage:', storedContacts);
     return storedContacts ? JSON.parse(storedContacts) : [];
   };
 
   useEffect(() => {
     const loadedContacts = fetchContactsFromLocalStorage();
+    console.log('Dane wczytane z Local Storage:', loadedContacts);
     dispatch(loadContactsFromLocalStorage(loadedContacts));
   }, [dispatch]);
 
   const saveContactsToLocalStorage = contacts => {
-    localStorage.setItem('contacts', JSON.stringify(contacts));
+    try {
+      localStorage.setItem('contacts', JSON.stringify(contacts));
+      console.log('Dane zapisane  Local Storage:', contacts);
+    } catch (error) {
+      console.error('Błąd podczas zapisywania danych do local storage', error);
+    }
   };
 
   const filterContacts = value => {
